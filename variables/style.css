@@ -1,0 +1,37 @@
+:root {
+  --red : #EF4444;
+  --blue: #3B82F6;
+  --dark: #032D3D;
+  --green: #4CAF50;
+  --orange: #FF9800;
+  --white : white;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.container {
+  margin: 20px;
+  padding: 20px 25px;
+  background-color: var(--white);
+}
+
+button {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+}
+button:hover {
+  background-color: var(--orange);
+}
+
+.btn-hapus {
+  background-color: var(--red);
+  color: var(--white);
+}
