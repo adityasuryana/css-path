@@ -1,0 +1,51 @@
+:root {
+  --red : #EF4444;
+  --blue: #3B82F6;
+  --dark: #032D3D;
+  --green: #4CAF50;
+  --orange: #FF9800;
+  --white : white;
+}
+
+.mb-2 {
+  margin-bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.container {
+  margin: 20px;
+  padding: 20px 25px;
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+button {
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--green);
+}
+
+input:focus {
+  background-color: var(--red);
+}
+
+input:in-range {
+  border: 2px solid var(--blue);
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
