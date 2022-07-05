@@ -1,0 +1,19 @@
+div#desc p {
+  background-color: black;
+  color: white;
+}
+
+div#child > p {
+  background-color: red;
+  color: white;
+}
+
+div#adj + p {
+  background-color: green;
+  color: orange;
+}
+
+div#general ~ p {
+  background-color: blue;
+  color: black;
+}
